@@ -3,7 +3,8 @@
 			<div class="logo-header" data-background-color="blue">
 				
 				<a href="index.html" class="logo">
-					<img src="assets/img/logo.svg" alt="navbar brand" class="navbar-brand">
+                    <!-- <img src="assets/img/logo.svg" alt="navbar brand" class="navbar-brand"> -->
+                    <h1 class="mt-3" style="color:white">Catatan-BK</h1>
 				</a>
 				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon">
