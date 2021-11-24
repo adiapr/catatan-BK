@@ -44,44 +44,46 @@
                                             <h5 class="modal-title" id="exampleModalLabel"><b>Tambah Data</b></h5>
                                             <!-- <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">x</button> -->
                                         </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="form-group form-group-default">
-                                                        <label>Nama Kelas</label>
-                                                        <input id="Name" type="text" class="form-control" placeholder="Fill Name">
+                                        <form action="controller/tambahdatasekolah.php?kelas=7" method="post"></form>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="form-group form-group-default">
+                                                            <label>Nama Kelas</label>
+                                                            <input id="Name" type="text" class="form-control" placeholder="Masukkan nama kelas">
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group form-group-default">
-                                                        <label>Nama Wali Kelas</label>
-                                                        <input id="Name" type="text" class="form-control" placeholder="Fill Name">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group form-group-default">
+                                                            <label>Nama Wali Kelas</label>
+                                                            <input id="Name" type="text" class="form-control" placeholder="Nama wali kelas">
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group form-group-default">
-                                                        <label>NIP Wali Kelas</label>
-                                                        <input id="Name" type="text" class="form-control" placeholder="Fill Name">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group form-group-default">
+                                                            <label>NIP Wali Kelas</label>
+                                                            <input id="Name" type="text" class="form-control" placeholder="NIP wali kelas">
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group form-group-default">
-                                                        <label>Nama Guru BK</label>
-                                                        <input id="Name" type="text" class="form-control" placeholder="Fill Name">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group form-group-default">
+                                                            <label>Nama Guru BK</label>
+                                                            <input id="Name" type="text" class="form-control" placeholder="Nama guru BK">
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group form-group-default">
-                                                        <label>NIP Guru BK</label>
-                                                        <input id="Name" type="text" class="form-control" placeholder="Fill Name">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group form-group-default">
+                                                            <label>NIP Guru BK</label>
+                                                            <input id="Name" type="text" class="form-control" placeholder="NIP guru BK">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary btn-sm">Save changes</button>
-                                        </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                                <button type="submit" class="btn btn-primary btn-sm">Save changes</button>
+                                            </div>
+                                        </form>
                                         </div>
                                     </div>
                                     </div>
@@ -118,44 +120,46 @@
                                                                     <h5 class="modal-title" id="exampleModalLabel"><b>Tambah Data</b></h5>
                                                                     <!-- <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">x</button> -->
                                                                 </div>
-                                                                <div class="modal-body">
-                                                                    <div class="row">
-                                                                        <div class="col-md-12">
-                                                                            <div class="form-group form-group-default">
-                                                                                <label>Nama Kelas</label>
-                                                                                <input id="Name" type="text" class="form-control" placeholder="Fill Name">
+                                                                <form action="controller/tambahdatasekolah.php?kelas=7" method="post"></form>
+                                                                    <div class="modal-body">
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <div class="form-group form-group-default">
+                                                                                    <label>Nama Kelas</label>
+                                                                                    <input id="Name" type="text" class="form-control" placeholder="Fill Name">
+                                                                                </div>
                                                                             </div>
-                                                                        </div>
-                                                                        <div class="col-md-6">
-                                                                            <div class="form-group form-group-default">
-                                                                                <label>Nama Wali Kelas</label>
-                                                                                <input id="Name" type="text" class="form-control" placeholder="Fill Name">
+                                                                            <div class="col-md-6">
+                                                                                <div class="form-group form-group-default">
+                                                                                    <label>Nama Wali Kelas</label>
+                                                                                    <input id="Name" type="text" class="form-control" placeholder="Fill Name">
+                                                                                </div>
                                                                             </div>
-                                                                        </div>
-                                                                        <div class="col-md-6">
-                                                                            <div class="form-group form-group-default">
-                                                                                <label>NIP Wali Kelas</label>
-                                                                                <input id="Name" type="text" class="form-control" placeholder="Fill Name">
+                                                                            <div class="col-md-6">
+                                                                                <div class="form-group form-group-default">
+                                                                                    <label>NIP Wali Kelas</label>
+                                                                                    <input id="Name" type="text" class="form-control" placeholder="Fill Name">
+                                                                                </div>
                                                                             </div>
-                                                                        </div>
-                                                                        <div class="col-md-6">
-                                                                            <div class="form-group form-group-default">
-                                                                                <label>Nama Guru BK</label>
-                                                                                <input id="Name" type="text" class="form-control" placeholder="Fill Name">
+                                                                            <div class="col-md-6">
+                                                                                <div class="form-group form-group-default">
+                                                                                    <label>Nama Guru BK</label>
+                                                                                    <input id="Name" type="text" class="form-control" placeholder="Fill Name">
+                                                                                </div>
                                                                             </div>
-                                                                        </div>
-                                                                        <div class="col-md-6">
-                                                                            <div class="form-group form-group-default">
-                                                                                <label>NIP Guru BK</label>
-                                                                                <input id="Name" type="text" class="form-control" placeholder="Fill Name">
+                                                                            <div class="col-md-6">
+                                                                                <div class="form-group form-group-default">
+                                                                                    <label>NIP Guru BK</label>
+                                                                                    <input id="Name" type="text" class="form-control" placeholder="Fill Name">
+                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                </div>
-                                                                <div class="modal-footer">
-                                                                    <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
-                                                                    <button type="button" class="btn btn-primary btn-sm">Save changes</button>
-                                                                </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                                                                        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+                                                                    </div>
+                                                                </form>
                                                                 </div>
                                                             </div>
                                                         </div>

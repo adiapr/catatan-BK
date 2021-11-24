@@ -1,7 +1,11 @@
 <?php 
-// isi nama host, username mysql, dan password mysql anda
-mysql_connect("localhost","root","");
  
-// isikan dengan nama database yang akan di hubungkan
-mysql_select_db("catatan_bk");
+$koneksi = mysqli_connect("localhost","root","","catatan_bk");
+//  $koneksi = mysqli_connect("localhost","u7718053_jecky","jkyhdy123","u7718053_inventaris");
+ 
+// Check connection
+if (mysqli_connect_errno()){
+	echo "Koneksi database gagal : " . mysqli_connect_error();
+}
+ 
 ?>
