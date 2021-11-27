@@ -42,12 +42,12 @@
 							</div>
 						</li>
 						<li class="nav-item">
-							<a data-toggle="collapse" href="#sidebarLayouts">
+							<a href="datasiswa.php">
 								<i class="fas fa-user-graduate"></i>
 								<p>Data Siswa</p>
-								<span class="caret"></span>
+								<!-- <span class="caret"></span> -->
 							</a>
-							<div class="collapse" id="sidebarLayouts">
+							<!-- <div class="collapse" id="sidebarLayouts">
 								<ul class="nav nav-collapse">
 									<li>
 										<a href="../sidebar-style-1.html">
@@ -75,7 +75,7 @@
 										</a>
 									</li>
 								</ul>
-							</div>
+							</div> -->
 						</li>
 						<li class="nav-item">
 							<a data-toggle="collapse" href="#forms">
